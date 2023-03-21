@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     //10:46 21.03.23 5 участник Денисова Анна Сессия 1
     //устанавливаем значение таймера, через сколько секунд он должен пролистнуться
     private final int ll = 5000;
-
+//
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

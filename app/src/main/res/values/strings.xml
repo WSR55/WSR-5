@@ -3,4 +3,10 @@
     <string name="email">example@mail.com</string>
     <string name="registr">.</string>
     <string name="spinner">Пол</string>
+    <string name="e_mail">Введите код из E-mail</string>
+    <string name="prop">Пропустить</string>
+    <string name="text">Отправить код можно будет через 59 секунд</string>
+    <string name="textCreate">Создание карты пациента</string>
+    <string name="prop2">Пропустить</string>
+    <string name="textCar">Без карты вы не сможете заказать анализы.</string>
 </resources>

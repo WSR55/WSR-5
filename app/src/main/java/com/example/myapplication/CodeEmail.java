@@ -13,6 +13,7 @@ public class CodeEmail extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_code_email);
     }
+    //
     //21.03.2023 15:35 5 участник. Денисова Анна. Сессия 2
     public void code(View view) {
         //объявляем intent, выделяем для него память, указываем на какой странице мы находимся и на какую переходим
