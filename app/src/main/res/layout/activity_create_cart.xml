@@ -26,6 +26,7 @@
         android:layout_marginTop="56dp"
         android:layout_marginEnd="20dp"
         android:fontFamily="@font/lato"
+        android:onClick="zap"
         android:text="@string/prop2"
         android:textColor="#1A6FEE "
         android:textSize="15sp"
