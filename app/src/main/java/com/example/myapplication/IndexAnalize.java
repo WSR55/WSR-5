@@ -24,12 +24,16 @@ public class IndexAnalize extends AppCompatActivity {
 
     //22.03.2023 10:42 5 участник. Денисова Анна. Сессия 3
     public void profile(View view){
-        //объявляем intent, выделяем для него память, указываем на какой странице мы находимся и на какую переходим(в моём случае мы находимся
-        // на главной странице Анализов и переходим на страницу Главная/Поиск/Начало
+        //объявляем intent, выделяем для него память, указываем на какой странице мы находимся и на какую переходим
         Intent intent = new Intent(IndexAnalize.this, CartPacientNeFoto.class);
         startActivity(intent);
     }
 
-
+    //22.03.2023 15:09 5 участник. Денисова Анна. Сессия 4
+    public void rascatalog(View view){
+        //объявляем intent, выделяем для него память, указываем на какой странице мы находимся и на какую переходим
+        Intent intent = new Intent(IndexAnalize.this, KartochkaTovara.class);
+        startActivity(intent);
+    }
 
 }
