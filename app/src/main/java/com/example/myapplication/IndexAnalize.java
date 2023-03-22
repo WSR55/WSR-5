@@ -32,7 +32,7 @@ public class IndexAnalize extends AppCompatActivity {
     //22.03.2023 15:09 5 участник. Денисова Анна. Сессия 4
     public void rascatalog(View view){
         //объявляем intent, выделяем для него память, указываем на какой странице мы находимся и на какую переходим
-        Intent intent = new Intent(IndexAnalize.this, KartochkaTovara.class);
+        Intent intent = new Intent(IndexAnalize.this, kartochka.class);
         startActivity(intent);
     }
 

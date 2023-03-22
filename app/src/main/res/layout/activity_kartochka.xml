@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="@android:color/transparent"
-    android:onClick="korzinaTwo"
-    tools:context=".rashlCatalog">
+    android:onClick="profile"
+    tools:context=".kartochka">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -125,14 +124,15 @@
                 android:id="@+id/button10"
                 android:layout_width="122dp"
                 android:layout_height="51dp"
+                android:layout_marginTop="24dp"
                 android:backgroundTint="#F5F5F9 "
                 android:fontFamily="@font/lato_bold"
                 android:text="Комплексные"
                 android:textColor="#7E7E9A "
                 android:textSize="10sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteY="112dp" />
+                app:layout_constraintTop_toBottomOf="@+id/search"
+                tools:ignore="MissingConstraints" />
 
             <RelativeLayout
                 android:id="@+id/relativeLayout"
@@ -192,7 +192,7 @@
                     android:layout_marginEnd="25dp"
                     android:layout_toEndOf="@+id/textView36"
                     android:backgroundTint="#1A6FEE "
-                    android:onClick="dobavlenie"
+                    android:onClick="catalogTwo"
                     android:text="Добавить"
                     android:textSize="10sp" />
             </RelativeLayout>
@@ -202,11 +202,28 @@
                 android:layout_width="376dp"
                 android:layout_height="144dp"
                 android:layout_marginTop="16dp"
-                android:backgroundTint="@android:color/transparent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="102dp"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/texttwo"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toEndOf="@+id/textView36"
+                    android:backgroundTint="#1A6FEE "
+                    android:text="Добавить"
+                    android:textSize="10sp"
+                    tools:ignore="NotSibling" />
 
                 <TextView
                     android:id="@+id/textView45"
@@ -243,21 +260,6 @@
                     android:fontFamily="@font/lato_bold"
                     android:text="Клинический анализ крови с лейкоцитарной формулировкой"
                     android:textColor="#000000" />
-
-                <ImageButton
-                    android:id="@+id/imageButton2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/texttwo"
-                    android:layout_alignParentEnd="true"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginStart="-5dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginEnd="25dp"
-                    android:layout_marginBottom="7dp"
-                    android:layout_toEndOf="@+id/texttwo"
-                    android:backgroundTint="@android:color/transparent"
-                    app:srcCompat="@drawable/small" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -269,6 +271,24 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/relativ"
                 app:layout_constraintVertical_bias="1.0">
+
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="102dp"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/texttwo"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_marginBottom="-21dp"
+                    android:layout_toEndOf="@+id/textView36"
+                    android:backgroundTint="#1A6FEE "
+                    android:text="Добавить"
+                    android:textSize="10sp"
+                    tools:ignore="NotSibling" />
 
                 <TextView
                     android:id="@+id/create2"
@@ -296,26 +316,6 @@
                     android:text="Клинический анализ крови с лейкоцитарной формулировкой"
                     android:textColor="#000000" />
             </RelativeLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="413dp"
-                android:layout_height="58dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent">
-
-                <Button
-                    android:id="@+id/button18"
-                    android:layout_width="369dp"
-                    android:layout_height="53dp"
-                    android:backgroundTint="#1A6FEE "
-                    android:fontFamily="@font/lato_bold"
-                    android:text="В корзину"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
