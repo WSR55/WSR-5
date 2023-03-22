@@ -14,6 +14,15 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".CartPacientNeFoto"
+            android:exported="false" />
+        <activity
+            android:name=".IndexSearch"
+            android:exported="false" />
+        <activity
+            android:name=".IndexAnalize"
+            android:exported="false" />
+        <activity
             android:name=".CreateCartZap"
             android:exported="false" />
         <activity
