@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activZakTwo">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".oformlenie">
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:onClick="two"
+            android:text="Вверх"
+            android:textColor="#1A6FEE "
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="101dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="268dp"
+            android:fontFamily="@font/lato"
+            android:text="Комментарий"
+            android:textColor="#7E7E9A "
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName7"
+            android:layout_width="354dp"
+            android:layout_height="146dp"
+            android:layout_marginTop="4dp"
+            android:background="#F5F5F9 "
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="Можете оставить свои пожелания"
+            android:textColor="#546E7A"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.543"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="17dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.9"
+            app:layout_constraintStart_toEndOf="@+id/textView52"
+            app:layout_constraintTop_toBottomOf="@+id/textView46"
+            app:srcCompat="@drawable/male" />
+
+        <RelativeLayout
+            android:layout_width="410dp"
+            android:layout_height="236dp"
+            android:layout_marginTop="40dp"
+            android:background="#F5F5F9 "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7"
+            app:layout_constraintVertical_bias="0.244">
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/lato"
+                android:text="Оплата Apple Pay"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="211dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="24dp"
+                android:layout_toEndOf="@+id/textView54"
+                android:backgroundTint="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                app:srcCompat="@drawable/nextt" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView54"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="260dp"
+                android:layout_toStartOf="@+id/imageButton6"
+                android:fontFamily="@font/lato"
+                android:text="Промокод"
+                android:textColor="#939396 " />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageButton5"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="18dp"
+                android:backgroundTint="@android:color/transparent"
+                app:srcCompat="@drawable/nextt"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView56"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="43dp"
+                android:fontFamily="@font/lato"
+                android:text="1 анализ"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageButton6"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="283dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="16dp"
+                android:layout_toEndOf="@+id/textView57"
+                android:text="690Р"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_below="@+id/textView57"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="14dp"
+                android:layout_marginBottom="14dp"
+                android:backgroundTint="#1A6FEE "
+                android:fontFamily="@font/lato_bold"
+                android:onClick="three"
+                android:text="Заказать"
+                android:textSize="17sp" />
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

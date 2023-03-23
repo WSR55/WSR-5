@@ -130,8 +130,10 @@
                 android:text="Комплексные"
                 android:textColor="#7E7E9A "
                 android:textSize="10sp"
+                app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/search"
+                app:layout_constraintVertical_bias="0.0"
                 tools:ignore="MissingConstraints" />
 
             <RelativeLayout

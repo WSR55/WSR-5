@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="phone">+7(967)078-58-37</string>
+    <string name="dolgota">  188</string>
+    <string name="width">  4</string>
+    <string name="heignt">  8</string>
     <string name="email">example@mail.com</string>
     <string name="registr">.</string>
     <string name="spinner">Пол</string>
